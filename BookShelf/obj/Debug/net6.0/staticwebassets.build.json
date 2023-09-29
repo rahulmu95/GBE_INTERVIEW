@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "RXgrf/LEhTnPpo/kmGE/esY8TrJrql7N5fXcpT74j+Y=",
+  "Source": "BookShelf",
+  "BasePath": "_content/BookShelf",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookShelf/wwwroot",
+      "Source": "BookShelf",
+      "ContentRoot": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/",
+      "BasePath": "_content/BookShelf",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/index.html",
+      "SourceId": "BookShelf",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/",
+      "BasePath": "_content/BookShelf",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/script.js",
+      "SourceId": "BookShelf",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/",
+      "BasePath": "_content/BookShelf",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/script.js"
+    }
+  ]
+}

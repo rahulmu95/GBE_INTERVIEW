@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/rahulmudaliar/Projects/BookShelf/BookShelf/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.BookShelf.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.BookShelf.props",
+      "PackagePath": "build\\BookShelf.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.BookShelf.props",
+      "PackagePath": "buildMultiTargeting\\BookShelf.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.BookShelf.props",
+      "PackagePath": "buildTransitive\\BookShelf.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

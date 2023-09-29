@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style> 
+        .button-container {
+            margin-top: 10px; 
+        }
+    </style>
+    <title>Interaction APIs for Create and Update API</title>
+</head>
+<body>
+    <h1> Create and Update APIs Interaction Page</h1>
+    <br />
+    <br />
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="author">Author:</label>
+        <input type="text" id="author" />
+    </div>
+    <div>
+        <label for="description">Description:</label>
+        <input type="text" id="description" />
+    </div>
+    <label for="categoryInput">Category:</label>
+    <select id="category">
+        <option value="0">Thriller</option>
+        <option value="1">History</option>
+        <option value="2">Drama</option>
+        <option value="3">Biography</option>
+    </select>
+    <br />
+    <div class="button-container">
+        <button id="createBookButton">Create a Book</button>
+        <div id="output"></div>
+    </div>
+    <br />
+    <br />
+    <div class="button-container">
+        <button id="getBooksButton">Get Existing Books To Update</button>
+    </div>
+    <div style="height:100px;" id="showBooks"></div>
+    <br />
+    <br />
+    <br />
+    <div>Pick out a book Id from the list above</div>
+    <div>
+        <label for="id">Book Id:</label>
+        <input type="text" id="id" />
+    </div>
+    <div>Fill in Properties you wish to change</div>
+    <br />
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="nameUpdate" />
+    </div>
+    <div>
+        <label for="author">Author:</label>
+        <input type="text" id="authorUpdate" />
+    </div>
+    <div>
+        <label for="description">Description:</label>
+        <input type="text" id="descriptionUpdate" />
+    </div>
+    <label for="categoryInput">Category:</label>
+    <select id="categoryUpdate">
+        <option value="0">Thriller</option>
+        <option value="1">History</option>
+        <option value="2">Drama</option>
+        <option value="3">Biography</option>
+    </select>
+    <div class="button-container">
+        <button id="updateBookButton">Update a Book</button>
+    </div>
+    <div style="height:100px;" id="updatedBook"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
