@@ -3,8 +3,8 @@ Interview Challenge - Book Library
 
 To Run Code:
 
--Open Solution in Visual Studio
--Ensure Packages are up to date on nuget package manager
--Run Solution
--Remove swagger from url to view static page to interact with the APIs
+1. Open Solution in Visual Studio
+2. Ensure Packages are up to date on nuget package manager
+3. Run Solution
+4. Remove swagger from url to view static page to interact with the APIs
 
