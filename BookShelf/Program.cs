@@ -43,10 +43,5 @@ app.MapControllers();
 
 app.UseStaticFiles();
 
-app.MapGet("/", () =>
-{
-    return Results.File("wwwroot/index.html");
-});
-
 app.Run();
 
